@@ -6,7 +6,7 @@
         $("li#home").addClass("background_menu").css({
             "margin-top":"-1px"
         });
-        $("li#account,li#shipment,li#confpayment").css({
+        $("li#account,li#shipment,li#confpayment,li#progress").css({
             "margin-top":"-1px"
         });
                
@@ -86,7 +86,7 @@
                                     <input style="border: 1px solid #bec6d3; width: 50px;"/>
                                 </li>
                                 <li>
-                                    <p style="text-align: left;font-size: 10px; margin-top: 5px; display: none;position: absolute;z-index: 2;background-color: white" id="confirmasi">
+                                    <p style="text-align: left;font-size: 10px; margin-top: 5px; display: none;position: static;z-index: 2;background-color: white" id="confirmasi">
                                         Available Pre Order<br/>*waktu pembuatan 2 minggu dari tanggal<br/>Confirmation of Payment
                                     </p>
                                 </li>

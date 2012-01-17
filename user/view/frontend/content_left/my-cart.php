@@ -1,6 +1,7 @@
 <div class="mycart">
     
     <img src="<?php include ($dd . "config/url.php"); ?>user/image/cart.gif" class="img_cart" />
+    <img src="<?php include ($dd . "config/url.php"); ?>user/image/cart2.gif" class="img_cart2" />
     <p class="p_cart">My Cart</p>
     <br/>
     <br/>
