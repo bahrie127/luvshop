@@ -112,9 +112,9 @@ $(document).ready(function(){
         $("img#img_utama").fadeOut(3000);
         $("img#img_utama_tk1").fadeIn(3000);     
         
-//        $("img#img_utama_tk1").css({
-//            "margin-top":"-294px"
-//        });
+        $("img#img_utama_tk1").css({
+            "margin-top":"-300px"
+        });
         $("ul#list_list").css({
             "margin-top":"2px"
         });
@@ -180,7 +180,7 @@ $(document).ready(function(){
         });
         
         $(this).animate({
-            marginTop:41
+            marginTop:11
         },"slow");
         $("p#list_nama_barang_tk1").clone().insertAfter(this).appendTo("p#nama_barang").css({
             "z-index":"-1",
@@ -206,6 +206,14 @@ $(document).ready(function(){
     $("img#tk2").live("click",function(){
         $("img#img_utama").fadeOut(3000);
         $("img#img_utama_tk2").fadeIn(3000);
+        
+        $("img#img_utama_tk2").css({
+            "margin-top":"-300px"
+        });
+        $("ul#list_list").css({
+            "margin-top":"2px"
+        });
+        
         $("img#img_utama_tk1,img#img_utama_tk3,img#img_utama_tk4,img#img_utama_tk5,img#img_utama_tk6").css({
             "display":"none"
         });
@@ -265,14 +273,14 @@ $(document).ready(function(){
         });
         
         $(this).animate({
-            marginTop:41
+            marginTop:11
         },"slow");
         $("p#list_nama_barang_tk2").clone().insertAfter(this).appendTo("p#nama_barang").css({
             "z-index":"-1",
             "display":"block"
             
         }) ;
-        $("h1#list_harga_barang_tk2").clone().insertAfter(this).appendTo("h2#harga_barang").css({
+        $("h1#list_harga_barang_tk2").clone().insertAfter(this).appendTo("h1#harga_barang").css({
             "z-index":"-1",
             "display":"block"
         });
@@ -291,6 +299,14 @@ $(document).ready(function(){
     $("img#tk3").live("click",function(){
         $("img#img_utama").fadeOut(3000);
         $("img#img_utama_tk3").fadeIn(3000);
+        
+        $("img#img_utama_tk3").css({
+            "margin-top":"-300px"
+        });
+        $("ul#list_list").css({
+            "margin-top":"2px"
+        });
+        
         $("img#img_utama_tk2,img#img_utama_tk1,img#img_utama_tk4,img#img_utama_tk5,img#img_utama_tk6").css({
             "display":"none"
         });
@@ -350,7 +366,7 @@ $(document).ready(function(){
         });
         
         $(this).animate({
-            marginTop:41
+            marginTop:11
         },"slow");
         $("p#list_nama_barang_tk3").clone().insertAfter(this).appendTo("p#nama_barang").css({
             "z-index":"-1",
@@ -369,6 +385,14 @@ $(document).ready(function(){
     $("img#tk4").live("click",function(){
         $("img#img_utama").fadeOut(3000);
         $("img#img_utama_tk4").fadeIn(3000);
+        
+        $("img#img_utama_tk4").css({
+            "margin-top":"-300px"
+        });
+        $("ul#list_list").css({
+            "margin-top":"2px"
+        });
+        
         $("img#img_utama_tk2,img#img_utama_tk3,img#img_utama_tk1,img#img_utama_tk5,img#img_utama_tk6").css({
             "display":"none"
         });
@@ -428,7 +452,7 @@ $(document).ready(function(){
         });
         
         $(this).animate({
-            marginTop:41
+            marginTop:11
         },"slow");
         $("p#list_nama_barang_tk4").clone().insertAfter(this).appendTo("p#nama_barang").css({
             "z-index":"-1",
@@ -447,6 +471,14 @@ $(document).ready(function(){
     $("img#tk5").live("click",function(){
         $("img#img_utama").fadeOut(3000);
         $("img#img_utama_tk5").fadeIn(3000);
+        
+        $("img#img_utama_tk5").css({
+            "margin-top":"-300px"
+        });
+        $("ul#list_list").css({
+            "margin-top":"2px"
+        });
+        
         $("img#img_utama_tk2,img#img_utama_tk3,img#img_utama_tk4,img#img_utama_tk1,img#img_utama_tk6").css({
             "display":"none"
         });
@@ -506,7 +538,7 @@ $(document).ready(function(){
         });
         
         $(this).animate({
-            marginTop:41
+            marginTop:11
         },"slow");
         $("p#list_nama_barang_tk5").clone().insertAfter(this).appendTo("p#nama_barang").css({
             "z-index":"-1",
@@ -525,6 +557,14 @@ $(document).ready(function(){
     $("img#tk6").live("click",function(){
         $("img#img_utama").fadeOut(3000);
         $("img#img_utama_tk6").fadeIn(3000);    
+        
+        $("img#img_utama_tk6").css({
+            "margin-top":"-300px"
+        });
+        $("ul#list_list").css({
+            "margin-top":"2px"
+        });
+        
         $("img#img_utama_tk2,img#img_utama_tk3,img#img_utama_tk4,img#img_utama_tk5,img#img_utama_tk1").css({
             "display":"none"
         });
@@ -584,7 +624,7 @@ $(document).ready(function(){
         });
         
         $(this).animate({
-            marginTop:41
+            marginTop:11
         },"slow");
         $("p#list_nama_barang_tk6").clone().insertAfter(this).appendTo("p#nama_barang").css({
             "z-index":"-1",

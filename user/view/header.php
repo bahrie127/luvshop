@@ -165,10 +165,10 @@ $aa = substr($BasePath2, 6);
                     </script>
                     <table class="menu_img">
                         <tr>
-                            <td><img src="<?php include ($dd . "config/url.php"); ?>user/image/fb.gif"/></td>
-                            <td><img src="<?php include ($dd . "config/url.php"); ?>user/image/sms.gif" style="margin-left: -20px;"/></td>
-                            <td><img src="<?php include ($dd . "config/url.php"); ?>user/image/pin.gif" style="margin-left: -30px;"/></td>
-                            <td><img src="<?php include ($dd . "config/url.php"); ?>user/image/sms2.gif" style="margin-left: -39px;"/></td>
+                            <td><a href="" target="_blank"><img src="<?php include ($dd . "config/url.php"); ?>user/image/fb.gif"/></a></td>
+                            <td><a href="" target="_blank"><img src="<?php include ($dd . "config/url.php"); ?>user/image/sms.gif" style="margin-left: -20px;"/></a></td>
+                            <td><a href="" target="_blank"><img src="<?php include ($dd . "config/url.php"); ?>user/image/pin.gif" style="margin-left: -30px;"/></a></td>
+                            <td><a href="" target="_blank"><img src="<?php include ($dd . "config/url.php"); ?>user/image/sms2.gif" style="margin-left: -39px;"/></a></td>
                         </tr>
                     </table>
 
