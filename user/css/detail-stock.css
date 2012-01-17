@@ -1,0 +1,246 @@
+.content_right .submenu_right_detail
+{
+    border: 1px solid #cbcbcb;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.content_right .submenu_right_detail table
+{
+    margin: 0;
+    padding: 0;
+}
+
+.content_right .submenu_right_detail ul
+{
+    margin: 0;
+    padding: 0;
+}
+.content_right .submenu_right_detail ul li img
+{
+    margin: 0;
+    padding: 0;
+    height: 206px;
+    width: 189px;
+}
+.content_right .submenu_right_detail h3
+{
+    color: #00438d;
+    text-align: center;
+    font-size: 15px;
+}
+.content_right .submenu_right_detail p
+{
+    color: #32597a;
+    text-align: center;
+    font-size: 11px;
+}
+.submenu_right_detail ul
+{
+    margin: 0;
+    padding: 0;
+}
+.submenu_right_detail #img_utama
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    border: 1px solid black
+}
+.submenu_right_detail #img_utama_tk
+{
+
+}
+.submenu_right_detail #img_utama_tk1
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+.submenu_right_detail #img_utama_tk2
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+.submenu_right_detail #img_utama_tk3
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+.submenu_right_detail #img_utama_tk4
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+.submenu_right_detail #img_utama_tk5
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+.submenu_right_detail #img_utama_tk6
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+.submenu_right_detail table
+{
+    margin: 0;
+    padding: 0;
+
+}
+.submenu_right_detail table tr td .img_kedua
+{
+    height: 72px;
+    width: 79px;
+    margin-right: 3px;
+    opacity: 0.5;
+    /*                                position: absolute*/
+}
+img#img_utama_shadow
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+
+img#img_utama_tk1_shadow
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+img#img_utama_tk2_shadow
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+img#img_utama_tk3_shadow
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+img#img_utama_tk4_shadow
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+img#img_utama_tk5_shadow
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+img#img_utama_tk6_shadow
+{
+    height: 315px;
+    width: 266px;
+    position: absolute;
+    margin-top: -281px;
+    margin-left: 11px;
+    display: none
+}
+#list_harga_barang_tk1
+{
+    display: none
+}
+#list_harga_barang_tk2
+{
+    display: none
+}
+#list_harga_barang_tk3
+{
+    display: none
+}
+#list_harga_barang_tk4
+{
+    display: none
+}
+#list_harga_barang_tk5
+{
+    display: none
+}
+#list_harga_barang_tk6
+{
+    display: none
+}
+
+#list_list
+{
+
+}
+#list_list_tk1
+{
+    display: none
+}
+#list_list_tk2
+{
+    display: none
+}
+#list_list_tk3
+{
+    display: none
+}
+#list_list_tk4
+{
+    display: none
+}
+#list_list_tk5
+{
+    display: none
+}
+#list_list_tk6
+{
+    display: none
+}

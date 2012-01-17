@@ -1,0 +1,67 @@
+.content_right .submenu_right
+{
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 704px;
+    overflow: hidden
+}
+.content_right .submenu_right table
+{
+    margin: 0;
+    padding: 0;
+}
+/*                        .content_right .submenu_right table tr
+                        {
+                            margin-bottom: 15px;
+                        }*/
+.content_right .submenu_right ul
+{
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+.content_right .submenu_right ul li a
+{
+
+}
+
+
+.content_right .submenu_right ul li img
+{
+    margin: 10px;
+    padding: 0;
+    height: 180px;
+    width: 169px;
+
+}
+.content_right .submenu_right h3
+{
+    color: #00438d;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 2px
+}
+.content_right .submenu_right p
+{
+    color: #32597a;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 2px
+}
+.content_right .paging
+{
+    border: 1px solid black;
+    height: 22px;
+    width: 383px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 8px;
+
+}

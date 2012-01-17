@@ -1,0 +1,76 @@
+.content_right .submenu_right_check
+{
+    border: 1px solid #cbcbcb;
+    padding: 15px;
+    margin-top: -10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    
+}
+.content_right .submenu_right_check table
+{
+    margin: 0;
+    padding: 0;
+}
+.content_right .submenu_right_check table tr
+{
+    margin: 0;
+    padding: 0;
+
+}
+.content_right .submenu_right_check table tr td
+{
+    width: 110px;
+
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+.content_right .submenu_right_check ul
+{
+    margin: 0;
+    padding: 0;
+}
+.content_right .submenu_right_check ul li img
+{
+    margin: 0;
+    padding: 0;
+    height: 206px;
+    width: 189px;
+}
+.content_right .submenu_right_check h3
+{
+    color: #00438d;
+    text-align: center;
+    font-size: 15px;
+}
+.content_right .submenu_right_check p
+{
+    color: #32597a;
+    text-align: center;
+    font-size: 11px;
+}
+.content_right .submenu_right_check .check
+{
+    display: inline-block;
+    color: #4293e2;
+    font-size: 13px
+}
+.content_right .submenu_right_check .check:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+.content_right .submenu_right_check .buttonz
+{
+    height: 16px;
+    width: 44px;
+    border: 1px solid #4293e2;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 10px
+}

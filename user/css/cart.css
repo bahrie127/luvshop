@@ -1,0 +1,56 @@
+.mycart
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.mycart .img_cart
+{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 10px;
+}
+.mycart .p_cart
+{
+    text-decoration: underline;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+div#cartfadein
+{
+    display: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 0.5;
+
+}
+div#cartfadein table
+{
+    margin: 0;
+    padding: 0;
+}
+
+div#cartfadein table tr
+{
+    margin: 0;
+    padding: 0;
+}
+div#cartfadein table tr td
+{
+
+    width: 83px
+}
+div#cartfadein table tr td p
+{
+    text-align: center;
+    font-size: 12px;
+}
+a p#showcart
+{
+    display: none;
+
+}

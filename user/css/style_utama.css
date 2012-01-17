@@ -1,0 +1,113 @@
+@import "header.css";
+@import "content_left.css";
+@import "content_right.css";
+@import "menu.css";
+@import "account.css";
+@import "cart.css";
+@import "progress.css";
+@import "shipment.css";
+@import "order.css";
+@import "condition.css";
+@import "payment.css";
+@import "shipping.css";
+@import "confpayment.css";
+@import "form.css";
+@import "check-out.css";
+body
+{
+    text-lign: center;
+    background-image: url('../image/background1.gif');
+    background-repeat: repeat-x;
+}
+
+a
+{
+    text-decoration: none;
+    outline: none;
+}
+
+h3,p
+{
+    font-family: sans-serif;
+}
+
+.wrap
+{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-top: 50px
+    
+/*    height: 1673px;*/
+/*    background-image: url('../image/background.gif');*/
+    
+}
+
+.header
+{
+    
+    height: 480px;
+    border-top-right-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-top-right-radius: 20px;
+    -o-border-top-right-radius: 20px;
+    
+    border-top-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-top-left-radius: 20px;
+    -o-border-top-left-radius: 20px;
+    
+    box-shadow: 0 214px 143px -100px #FC578F inset;
+    -webkit-box-shadow: 0 214px 143px -100px #FC578F inset;
+    -moz-box-shadow: 0 214px 143px -100px #FC578F inset;
+    -o-box-shadow: 0 214px 143px -100px #FC578F inset;
+    
+    background-color: white;
+    
+}
+
+.content
+{
+    
+    padding: 2px;
+    background-color: white;
+}
+.content_left
+{
+    
+    position: absolute;
+    width: 200px;
+}
+
+.content_right
+{
+    
+    margin-left: 190px;
+    height: 800px;
+    padding: 10px;
+}
+
+.footer
+{
+    
+    height: 146px;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-bottom-right-radius: 20px;
+    -o-border-bottom-right-radius: 20px;
+    
+    border-bottom-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-bottom-left-radius: 20px;
+    -o-border-bottom-left-radius: 20px;
+    
+    box-shadow: 0 -150px 112px -76px #FC578F inset;
+    -webkit-box-shadow: 0 -150px 112px -76px #FC578F inset;
+    -moz-box-shadow: 0 -150px 112px -76px #FC578F inset;
+    -o-box-shadow: 0 -150px 112px -76px #FC578F inset;
+    
+    background-color: white;
+}
+

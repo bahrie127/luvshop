@@ -1,0 +1,117 @@
+.content_right .submenu_right_account
+{
+    border: 1px solid #cbcbcb;
+    padding: 15px;
+    margin-top: -10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.content_right .submenu_right_account table
+{
+    margin: 0;
+    padding: 0;
+}
+.content_right .submenu_right_account table tr
+{
+    margin: 0;
+    padding: 0;
+
+}
+.content_right .submenu_right_account table tr td
+{
+    width: 110px;
+
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+.content_right .submenu_right_account ul
+{
+    margin: 0;
+    padding: 0;
+}
+.content_right .submenu_right_account ul li img
+{
+    margin: 0;
+    padding: 0;
+    height: 206px;
+    width: 189px;
+}
+.content_right .submenu_right_account h3
+{
+    color: #00438d;
+    text-align: center;
+    font-size: 15px;
+}
+.content_right .submenu_right_account p
+{
+    color: #32597a;
+    text-align: center;
+    font-size: 11px;
+}
+.content_right .submenu_right_account .tombol
+{
+    margin-top: 172px;
+    text-align: center;
+}
+.content_right .submenu_right_account .tombol img
+{
+    height: 24px;
+    width: 88px;
+}
+.content_right .submenu_right_account .img_sort
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.content_right .submenu_right_account .img_sort img
+{
+    margin-bottom: 10px;
+    margin-right: 44px;
+}
+
+.content_right .submenu_right_account .img_sort #img1a
+{
+    height: 58px;
+    width: 67px;
+    margin-bottom: -6px;
+}
+
+.content_right .submenu_right_account .img_sort #img2a
+{
+    height: 30px;
+    width: 41px;
+    margin-bottom: 4px;
+}
+.content_right .submenu_right_account .img_sort hr
+{
+    width: 292px;
+    margin-left: 116px;
+    border: 1px solid #3473ba;
+    position: absolute;
+    margin-top: 33px;
+}
+.submenu_right_account input
+{
+    border: 1px solid #8ea8c1;
+    margin-bottom: 5px;
+}
+
+.submenu_right_account table.table_on
+{
+    margin-top: 20px
+}
+.submenu_right_account table.table_on tr
+{
+    border: 1px solid black
+}
+
+.submenu_right_account table.table_on tr td
+{
+    border: 1px solid black;
+    height: 20px;
+    width: 131px;
+    text-align: center
+}
