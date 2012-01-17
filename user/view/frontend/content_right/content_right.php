@@ -2,90 +2,167 @@
 
 <div class="content_right">
 
+    <!--    <div class="submenu_right">
+            <table>
+    
+                <tr>
+    <?php
+    $ma = mysql_query("select * from detail_produk order by idDP ASC limit 0,3");
+    while ($fa = mysql_fetch_array($ma)) {
+        $m = mysql_query("select * from produk where idDP = $fa[idDP] limit 1");
+        while ($f = mysql_fetch_array($m)) {
+            ?>
+                                    <td>
+                                        <ul>
+                                            <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"<?php echo $f[idDP]; ?>"><img src="<?php include('url.php');
+        echo $f['gambar']; ?>" /></a></li>
+                                            <li><p><?php echo $fa['namaDP'] ?></p></li>
+                                            <li><h3><?php
+        $harga = number_format($f['harga'], 0, ",", ".");
+        echo "Rp. $harga";
+            ?></h3></li>
+                                        </ul>
+                                    </td>
+            
+            
+        <?php }
+    } ?>
+                </tr>
+                <tr>
+    <?php
+    $ma = mysql_query("select * from detail_produk order by idDP ASC limit 3,6");
+    while ($fa = mysql_fetch_array($ma)) {
+        $m = mysql_query("select * from produk where idDP = $fa[idDP] limit 1");
+        while ($f = mysql_fetch_array($m)) {
+            ?>
+                                    <td>
+                                        <ul>
+                                            <li id="gm2"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail?id=<?php echo $f[idDP]; ?>"><img src="<?php include('url.php');
+        echo $f['gambar']; ?>" /></a></li>
+                                            <li><p><?php echo $fa['namaDP'] ?></p></li>
+                                            <li><h3><?php
+        $harga = number_format($f['harga'], 0, ",", ".");
+        echo "Rp. $harga";
+            ?></h3></li>
+                                        </ul>
+                                    </td>
+            
+            
+        <?php }
+    } ?>
+                </tr>
+    
+                <tr>
+    <?php
+    $ma = mysql_query("select * from detail_produk order by idDP ASC limit 6,9");
+    while ($fa = mysql_fetch_array($ma)) {
+        $m = mysql_query("select * from produk where idDP = $fa[idDP] limit 1");
+        while ($f = mysql_fetch_array($m)) {
+            ?>
+                                    <td>
+                                        <ul>
+                                            <li id="gm3"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail?id=<?php echo $f['idDP']; ?>"><img src="<?php include('url.php');
+        echo $f['gambar']; ?>" /></a></li>
+                                            <li><p><?php echo $fa['namaDP'] ?></p></li>
+                                            <li><h3><?php
+        $harga = number_format($f['harga'], 0, ",", ".");
+        echo "Rp. $harga";
+            ?></h3></li>
+                                        </ul>
+                                    </td>
+            
+            
+        <?php }
+    } ?>
+                </tr>
+    
+    
+            </table>
+    
+        </div>-->
     <div class="submenu_right">
         <table>
-
             <tr>
-                <?php
-                $ma = mysql_query("select * from detail_produk order by idDP ASC limit 0,3");
-                while ($fa = mysql_fetch_array($ma)) {
-                    $m = mysql_query("select * from produk where idDP = $fa[idDP] limit 1");
-                    while ($f = mysql_fetch_array($m)) {
-                        ?>
-                        <td>
-                            <ul>
-                                <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"<?php echo $f[idDP]; ?>"><img src="<?php include('url.php');
-                echo $f['gambar']; ?>" /></a></li>
-                                <li><p><?php echo $fa['namaDP'] ?></p></li>
-                                <li><h3><?php
-                                                                                                                                                  $harga = number_format($f['harga'], 0, ",", ".");
-                                                                                                                                                  echo "Rp. $harga";
-                        ?></h3></li>
-                            </ul>
-                        </td>
-
-
-                    <?php }
-                } ?>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
             </tr>
             <tr>
-                <?php
-                $ma = mysql_query("select * from detail_produk order by idDP ASC limit 3,6");
-                while ($fa = mysql_fetch_array($ma)) {
-                    $m = mysql_query("select * from produk where idDP = $fa[idDP] limit 1");
-                    while ($f = mysql_fetch_array($m)) {
-                        ?>
-                        <td>
-                            <ul>
-                                <li id="gm2"><a href="<?php include ($dd . "config/url.php"); ?>user/view/frontend/memberarea/memberarea-detail-stock_1.php?id=<?php echo $f[idDP]; ?>"><img src="<?php include('url.php');
-                                                                                                                                                                                  echo $f['gambar']; ?>" /></a></li>
-                                <li><p><?php echo $fa['namaDP'] ?></p></li>
-                                <li><h3><?php
-                                                                                                                                                                                  $harga = number_format($f['harga'], 0, ",", ".");
-                                                                                                                                                                                  echo "Rp. $harga";
-                                                                                                                                                                                  ?></h3></li>
-                            </ul>
-                        </td>
-
-
-    <?php }
-} ?>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
             </tr>
-
             <tr>
-                <?php
-                $ma = mysql_query("select * from detail_produk order by idDP ASC limit 6,9");
-                while ($fa = mysql_fetch_array($ma)) {
-                    $m = mysql_query("select * from produk where idDP = $fa[idDP] limit 1");
-                    while ($f = mysql_fetch_array($m)) {
-                        ?>
-                        <td>
-                            <ul>
-                                <li id="gm3"><a href="<?php include ($dd . "config/url.php"); ?>user/view/frontend/memberarea/memberarea-detail-stock_1.php?id=<?php echo $f['idDP']; ?>"><img src="<?php include('url.php');
-                        echo $f['gambar']; ?>" /></a></li>
-                                <li><p><?php echo $fa['namaDP'] ?></p></li>
-                                <li><h3><?php
-                                $harga = number_format($f['harga'], 0, ",", ".");
-                                echo "Rp. $harga";
-                                ?></h3></li>
-                            </ul>
-                        </td>
-
-
-    <?php }
-} ?>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="gm1"><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=detail"><img src="<?php include ($dd . "config/url.php"); ?>user/image/home/tas5.gif" /></a></li>
+                        <li><p>VENTAGO</p></li>
+                        <li><h3>Rp 95.000</h3></li>
+                    </ul>
+                </td>
             </tr>
-
+            
 
         </table>
 
     </div>
+            
     <div class="paging">
         <a>paging</a>
     </div>
     <script>
         $(document).ready(function(){
-            $("li#gm1,li#gm2,li#gm3 ").hover(
+            $("li#gm1 ").hover(
             function(){
                 $(this).css({
                     "box-shadow":"inset 0px 0px 40px 0px red",
