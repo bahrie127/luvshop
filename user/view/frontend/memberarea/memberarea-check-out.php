@@ -47,7 +47,7 @@
                                 <td><br/></td>
                             </tr>
                             <tr style="border-bottom: 1px dashed black">
-                                <td></td><td></td><td></td><td></td><td></td>
+                                <td colspan="5"></td>
                             </tr>
                             <tr>
                                 <td><br/></td>
@@ -73,14 +73,14 @@
                                 <td><br/></td>
                             </tr>
                             <tr style="border-bottom: 1px dashed black" >
-                                <td></td><td></td><td></td><td></td><td></td>
+                                <td colspan="5"></td>
                             </tr>
                             <tr>
                                 <td><p style="margin-top: 5px;"></p></td>
                             </tr>
 
                             <tr style="border-bottom: 1px solid black;"> 
-                                <td></td><td></td><td></td><td></td><td></td>
+                                <td colspan="5"></td>
                             </tr>
                             <tr>
                                 <td><br/></td>
