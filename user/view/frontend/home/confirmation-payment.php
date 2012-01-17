@@ -69,7 +69,7 @@
                                 <option value="11">Nov</option>
                                 <option value="12">Dec</option>
                             </select>
-                            <select style="width: 50px" required="required">
+                            <select style="width: 45px" required="required">
                                 <option value="-">
                                     day:
                                 </option>
@@ -105,7 +105,7 @@
                                 <option value="30">30</option>
                                 <option value="31">31</option>
                             </select>
-                            <select style="width: 50px" required="required">
+                            <select style="width: 55px" required="required">
                                 <option value="-">
                                     year:
                                 </option>
