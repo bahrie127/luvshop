@@ -13,6 +13,7 @@
 @import "confpayment.css";
 @import "form.css";
 @import "check-out.css";
+@import "forgot.css";
 body
 {
     text-lign: center;
@@ -25,7 +26,10 @@ a
     text-decoration: none;
     outline: none;
 }
-
+label
+{
+    color: black
+}
 h3,p
 {
     font-family: sans-serif;

@@ -55,7 +55,7 @@ $aa = substr($BasePath2, 6);
                     </form>
 
                     <ul>
-                        <li><a href="">Forgot your username or password ?</a></li>
+                        <li><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=for" id="forgot">Forgot your username or password ?</a></li>
                         <li><a href="<?php include ($dd . "config/url.php"); ?>user/view/tamp.php?menu=reg" id="sign">Sign Up!</a></li>
                     </ul>
                 </div>

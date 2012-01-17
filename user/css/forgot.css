@@ -1,0 +1,34 @@
+.content_right .submenu_right_forgot
+{
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-align: center
+}
+.content_right .submenu_right_forgot h2
+{
+    color: red
+}
+.content_right .submenu_right_forgot p
+{
+    font-size: 11px;
+    margin-bottom: 30px
+}
+
+.content_right .submenu_right_forgot label
+{
+    font-size: 13px
+}
+.content_right .submenu_right_forgot input
+{
+    margin-bottom: 16px
+}
+.content_right .submenu_right_forgot form
+{
+    margin-left: 128px;
+    
+}

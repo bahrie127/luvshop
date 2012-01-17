@@ -36,6 +36,8 @@ if (empty($menu)) {
     include 'frontend/memberarea/memberarea-complete-order.php';
 } else if ($menu == "reg") {
     include 'frontend/logreg/register.php';
+}else if($menu == "for"){
+    include 'frontend/logreg/forgot.php';
 }
 
 include 'footer.php';
